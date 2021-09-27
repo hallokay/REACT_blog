@@ -1,0 +1,86 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+textarea {
+  resize: none;
+
+}
+
+
+.content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ============ BLOG =========== */
+
+.blog_logo {
+  font-size: 1.5rem;
+}
+.blog_preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.blog_preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,.1);
+}
+
+ .blog_title {
+  font-size: 1.7rem;
+  color: rgb(71, 102, 187);
+  margin-bottom: .5rem;
+}
+
+span {
+  font-size: .975rem;
+}
+
+.blog_desc {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* ============== create =========== */
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align-last: left;
+  display: block;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: .5rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+button {
+  background: rgb(71, 102, 187);
+  border-radius: 0.5rem;
+  color: #ddd;
+  border: 0;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
